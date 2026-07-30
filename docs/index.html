@@ -3,39 +3,169 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>tvremote — Legal</title>
+    <meta name="robots" content="index, follow">
+    <meta name="description" content="Remote &amp; Cast: Smart TV — a universal remote for Android TV, Samsung, LG and Sony, plus casting and screen mirroring from your iPhone or iPad.">
+    <meta property="og:title" content="Remote &amp; Cast: Smart TV">
+    <meta property="og:description" content="Control your TV, type without the on-screen keyboard, and cast photos, video and your whole screen — from your iPhone or iPad.">
+    <meta property="og:type" content="website">
+    <title>Remote &amp; Cast: Smart TV — universal TV remote &amp; casting</title>
     <style>
         :root { color-scheme: light dark; }
+        * { box-sizing: border-box; }
         body {
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
             line-height: 1.65; margin: 0; color: #1a1a1a; background: #ffffff;
-            display: flex; min-height: 100vh; align-items: center; justify-content: center;
         }
-        .container { max-width: 560px; padding: 40px 24px; text-align: center; }
-        h1 { font-size: 2rem; margin: 0 0 8px; letter-spacing: -0.02em; }
-        p { color: #6b7280; }
-        .links { margin-top: 28px; display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; }
-        .links a {
-            display: inline-block; padding: 12px 20px; border-radius: 10px;
-            border: 1px solid #e5e7eb; color: #2563eb; text-decoration: none; font-weight: 500;
+        .container { max-width: 860px; margin: 0 auto; padding: 0 20px; }
+        a { color: #2563eb; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+
+        .hero { text-align: center; padding: 80px 20px 56px; }
+        .hero h1 { font-size: 2.6rem; margin: 0 0 12px; letter-spacing: -0.03em; line-height: 1.1; }
+        .hero .tagline { font-size: 1.2rem; color: #6b7280; margin: 0 auto; max-width: 620px; }
+        .accent { color: #2563eb; }
+
+        .badges { margin-top: 30px; display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; }
+        .badge {
+            display: inline-block; padding: 7px 14px; border-radius: 999px;
+            border: 1px solid #e5e7eb; font-size: 0.9rem; color: #6b7280;
         }
-        .links a:hover { background: #f6f7f9; }
+
+        h2 { font-size: 1.35rem; margin: 0 0 18px; letter-spacing: -0.01em; }
+        section { padding: 32px 0; }
+
+        .features { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 16px; }
+        .card {
+            border: 1px solid #e5e7eb; border-radius: 14px; padding: 20px 22px; background: #ffffff;
+        }
+        .card h3 { margin: 0 0 6px; font-size: 1.05rem; }
+        .card p { margin: 0; color: #6b7280; font-size: 0.96rem; }
+
+        .compat { display: flex; gap: 10px; flex-wrap: wrap; padding: 0; list-style: none; margin: 0; }
+        .compat li {
+            border: 1px solid #e5e7eb; border-radius: 10px; padding: 10px 16px; font-size: 0.96rem;
+        }
+
+        .note {
+            background: #f6f7f9; border: 1px solid #e5e7eb; border-radius: 12px;
+            padding: 16px 20px; margin: 16px 0 0; font-size: 0.95rem; color: #6b7280;
+        }
+
+        .cta { text-align: center; padding: 20px 0 8px; }
+        .cta a.button {
+            display: inline-block; padding: 14px 26px; border-radius: 12px;
+            background: #2563eb; color: #fff; font-weight: 600; text-decoration: none;
+        }
+        .cta a.button:hover { background: #1d4fd8; text-decoration: none; }
+
+        footer {
+            margin-top: 56px; padding: 24px 0 64px; border-top: 1px solid #e5e7eb;
+            font-size: 0.92rem; color: #6b7280; text-align: center;
+        }
+        footer a { margin: 0 6px; }
+
         @media (prefers-color-scheme: dark) {
             body { color: #e6e6e6; background: #111317; }
-            p { color: #9aa2ad; }
-            .links a { color: #6ea8fe; border-color: #2a2e37; }
-            .links a:hover { background: #1a1d23; }
+            a { color: #6ea8fe; }
+            .accent { color: #6ea8fe; }
+            .hero .tagline, .card p, .badge, .note, footer { color: #9aa2ad; }
+            .card { background: #16181d; border-color: #2a2e37; }
+            .badge, .compat li, .note { border-color: #2a2e37; }
+            .note { background: #1a1d23; }
+            footer { border-color: #2a2e37; }
         }
     </style>
 </head>
 <body>
+
+<div class="hero">
     <div class="container">
-        <h1>tvremote</h1>
-        <p>Universal TV remote &amp; casting. Legal documents for the tvremote app.</p>
-        <div class="links">
-            <a href="./privacy-policy/">Privacy Policy</a>
-            <a href="./terms/">Terms &amp; Conditions</a>
+        <h1>Your phone is now the only <span class="accent">remote</span> you need.</h1>
+        <p class="tagline">
+            Control your smart TV, type without the on‑screen keyboard, and send photos, videos
+            and your entire screen to the big screen — from your iPhone or iPad.
+        </p>
+        <div class="badges">
+            <span class="badge">No account needed</span>
+            <span class="badge">No extra hardware</span>
+            <span class="badge">Works over Wi‑Fi</span>
         </div>
     </div>
+</div>
+
+<div class="container">
+
+    <section>
+        <h2>What it does</h2>
+        <div class="features">
+            <div class="card">
+                <h3>A real remote</h3>
+                <p>Power, volume, mute and channels, plus a gesture trackpad, D‑pad, arrow keys
+                   and a number pad.</p>
+            </div>
+            <div class="card">
+                <h3>Type &amp; talk</h3>
+                <p>Search on your TV using your phone keyboard, or speak and have your words
+                   turned into text instantly.</p>
+            </div>
+            <div class="card">
+                <h3>Cast your media</h3>
+                <p>Send photos and videos straight from your library to the TV, with AirPlay and
+                   Chromecast supported out of the box.</p>
+            </div>
+            <div class="card">
+                <h3>Cast from the web</h3>
+                <p>Open a web page in the app, play a video, and send it to your TV.</p>
+            </div>
+            <div class="card">
+                <h3>Screen mirroring</h3>
+                <p>Mirror your whole screen to any TV that has a browser — not just AirPlay
+                   devices.</p>
+            </div>
+            <div class="card">
+                <h3>Your TV&rsquo;s apps</h3>
+                <p>Open the apps installed on your television directly from your phone.</p>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Works with</h2>
+        <ul class="compat">
+            <li>Android TV &amp; Google TV</li>
+            <li>Samsung Smart TV</li>
+            <li>LG (webOS)</li>
+            <li>Sony (Bravia)</li>
+            <li>Chromecast</li>
+            <li>AirPlay devices</li>
+        </ul>
+        <p class="note">
+            Your TV and your phone need to be on the same Wi‑Fi network. Some streaming services
+            protect their video with DRM, and those protected streams can&rsquo;t be cast by any
+            third‑party app.
+        </p>
+    </section>
+
+    <section>
+        <h2>Premium</h2>
+        <p>The app is free to use. A single one‑time purchase removes every banner and
+           full‑screen ad, forever — it&rsquo;s not a subscription.</p>
+    </section>
+
+    <div class="cta">
+        <a class="button" href="./support/">Get help &amp; contact us</a>
+    </div>
+
+    <footer>
+        <p>
+            <a href="./support/">Support</a> &middot;
+            <a href="./privacy-policy/">Privacy Policy</a> &middot;
+            <a href="./terms/">Terms &amp; Conditions</a>
+        </p>
+        <p>Remote &amp; Cast: Smart TV</p>
+    </footer>
+
+</div>
+
 </body>
 </html>
